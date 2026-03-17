@@ -1,6 +1,6 @@
 # korner-skills
 
-Custom Claude Code commands for the Korner development workflow.
+Claude Code plugin for the Korner development workflow.
 
 ## Commands
 
@@ -14,23 +14,17 @@ Custom Claude Code commands for the Korner development workflow.
 ## Install
 
 ```bash
-git clone git@github.com:raphaelhoguet-cpu/korner-skills.git
-cd korner-skills
-./install.sh
+claude plugin install korner-skills@raphaelhoguet-cpu/korner-skills
 ```
-
-This symlinks the commands into `~/.claude/commands/` so they're available globally in Claude Code.
 
 ## Uninstall
 
 ```bash
-./uninstall.sh
+claude plugin uninstall korner-skills@raphaelhoguet-cpu/korner-skills
 ```
 
 ## Update
 
 ```bash
-git pull
+claude plugin update korner-skills@raphaelhoguet-cpu/korner-skills
 ```
-
-Since commands are symlinked, pulling the latest automatically updates them.

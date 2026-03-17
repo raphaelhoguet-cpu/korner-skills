@@ -1,0 +1,10 @@
+{
+  "name": "korner-skills",
+  "description": "Development workflow commands for Korner: Linear tickets, Supabase migrations, GitHub PRs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Korner"
+  },
+  "repository": "https://github.com/raphaelhoguet-cpu/korner-skills",
+  "keywords": ["linear", "supabase", "workflow", "commands"]
+}
