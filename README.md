@@ -17,14 +17,24 @@ Claude Code plugin for the Korner development workflow.
 claude plugin install korner-skills@raphaelhoguet-cpu/korner-skills
 ```
 
+## Update
+
+Après un merge sur main, chaque membre met à jour avec :
+
+```bash
+claude plugin update korner-skills@raphaelhoguet-cpu/korner-skills
+```
+
+## Modifier les skills
+
+1. Créer une branche depuis `main`
+2. Éditer les fichiers dans `commands/`
+3. Ouvrir une PR sur GitHub
+4. Review + merge par un membre de l'équipe
+5. Chaque utilisateur fait un `claude plugin update` pour récupérer les changements
+
 ## Uninstall
 
 ```bash
 claude plugin uninstall korner-skills@raphaelhoguet-cpu/korner-skills
-```
-
-## Update
-
-```bash
-claude plugin update korner-skills@raphaelhoguet-cpu/korner-skills
 ```
